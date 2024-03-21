@@ -1,0 +1,24 @@
+@include font-face(
+  "CalendasPlus",
+  "../../fonts/Calendas_Plus/calendas_plus",
+  normal,
+  normal
+);
+@include font-face(
+  "CalendasPlus",
+  "../../fonts/Calendas_Plus/calendas_plus_bold",
+  normal,
+  bold
+);
+@include font-face(
+  "CalendasPlus",
+  "../../fonts/Calendas_Plus/calendas_plus_italic",
+  italic,
+  bold
+);
+@include font-face(
+  "CalendasPlusLigatures",
+  "../../fonts/Calendas_Plus/calendas_plus_italic--ligatures",
+  italic,
+  bold
+);

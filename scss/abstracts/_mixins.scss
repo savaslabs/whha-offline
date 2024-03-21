@@ -107,3 +107,16 @@
     @media only screen and (max-width: $mobile-max) { @content; }
   }
 }
+
+@mixin font-face($name, $filename, $style: normal, $weight: normal) {
+  @font-face {
+    font-family: "#{$name}";
+    font-style: $style;
+    font-weight: $weight;
+    src: url("#{$filename}.eot");
+    src: url("#{$filename}.eot?#iefix") format("embedded-opentype"),
+       url("#{$filename}.woff2") format("woff2"),
+       url("#{$filename}.woff") format("woff"),
+       url("#{$filename}.svg##{$name}") format('svg');
+  }
+}

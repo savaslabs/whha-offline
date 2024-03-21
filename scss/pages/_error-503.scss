@@ -1,0 +1,7 @@
+main.error-503 { background:rgb(238, 237, 235); font-family:$font-family; font-size:18px; min-height:100dvh; display:flex; align-content:center; align-items:center; justify-content:center;
+  .inner { width:100%; text-align:center; }
+  h1 { font-size:clamp(22px,12vw,46px); text-align:center; margin-bottom:0.5em; }
+  img.logo { display:block; margin:0 auto 40px auto; }
+  .text-holder { max-width:39ch; margin-left:auto; margin-right:auto; }
+  p { line-height:225%; text-align:center; margin:unset; }
+}

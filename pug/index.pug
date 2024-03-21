@@ -7,12 +7,15 @@ html(lang="en")
   
   include partials/_head.pug
     
-  body
-    #app(v-cloak)
-
-      main(style="height:100vh; display:flex; align-items:center; justify-content:center; padding:2rem;")
-        .inner
-          h1(v-text="h1")
-          h5(v-text="h5")
+  body.error-503
+    
+    main.error-503
+      .inner
+        
+        h1 Down for maintenance.
+        img.logo(src="img/footer-logo.png" alt="The White House Historical Association")
+        .text-holder
+          p We are currently experiencing scheduled maintence and the site is down temporarily as a result.
+          p We thank you for your patience.
 
     include partials/_javascripts

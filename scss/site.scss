@@ -11,7 +11,7 @@
 // BASE is for things like global site styles and typography.
 @import "base/reset"; 
 @import "base/defaults"; 
-
+@import "base/typography"; 
 
 // LIBRARIES is for third party Scss 
 
@@ -26,7 +26,7 @@
 
 
 // PAGES is for any specific page template
-
+@import "pages/error-503";
 
 // FINALLY, we should have a place for things we still need to get to...
 @import "todo/shame";

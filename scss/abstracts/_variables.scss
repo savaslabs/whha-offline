@@ -25,9 +25,10 @@ $medium:400;
 $bold:700;
 
 // FONT UTILITIES /////////////////////////////////////////////////////////////////////
-$serif: "Palatino", serif;
+$serif: "CalendasPlus", "Crimson Text", Helvetica, Arial, sans-serif;
+// $serif: "Crimson Text", serif;
 $sans-serif: Helvetica, sans-serif;
-$font-family: $sans-serif;
+$font-family: $serif;
 $headline: $serif;
 
 // MEASUREMENTS //////////////////////////////////////////////////////////////////////
